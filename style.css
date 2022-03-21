@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background: grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display {
+    padding: 10px;
+    background: aquamarine;
+
+}
+
+.display,
+.num {
+    width: 100%;
+    border-radius: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: end;
+    
+}
+
+.num {
+    background: #fff;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
