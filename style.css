@@ -35,8 +35,19 @@ html, body {
     text-align: end;
 }
 
+#clear,
+#delete {
+    width: 44%;
+    background: #fff;
+    padding: 10px 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
 .display,
-.num {
+.num,
+#clear,
+#delete {
     border-radius: 25px;
     font-size: 50px;
     font-weight: bold;
